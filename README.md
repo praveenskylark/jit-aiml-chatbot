@@ -1,5 +1,5 @@
 # jit-aiml-chatbot
- simple chatbot using Artificial Intelligence Mark Up language using pythin
+ simple chatbot using Artificial Intelligence Mark Up language using python
 
 ### clone this repo
 
