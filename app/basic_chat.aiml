@@ -4,22 +4,37 @@
     <category>
         <pattern>HELLO</pattern>
         <template>
-            Well, hello!
+                Well, hello!
+                what is your name
         </template>
+    </category>
+    <category>
+        <pattern>my name is *</pattern>
+        <template>hello <star/></template>
     </category>
     
     <category>
         <pattern>WHAT ARE YOU</pattern>
-        <template>
-            I'm a bot, silly!
+        <template><![CDATA[
+	        <html>
+                <b>I'm a bot, silly! <b>hello
+	        </html>]]>
         </template>
     </category>
+
     <category>
-    <pattern>enter</pattern>
-    <template>
-            internship
-    </template>
-</category>
+        <pattern>what is time now</pattern>
+        <template><![CDATA[
+            <html>
+                <p id="demo"></p>
+                <script>
+                var d = new Date();
+                document.getElementById("demo").innerHTML = d;
+                </script>
+            </html>]]>
+        </template>
+    </category>
+
 
     
 </aiml>

@@ -36,10 +36,12 @@
         margin-left: auto;
         margin-right: auto;
         width: 40%;
+        background-color: transparent;
+        border-bottom: #000000;
         margin-top: 60px;
       }
       #textInput {
-        width: 90%;
+        width: 75%;
         border: none;
         border-bottom: 3px solid black;
         font-family: monospace;
@@ -87,7 +89,8 @@
           </p>
         </div>
         <div id="userInput">
-          <input id="textInput" type="text" name="msg" placeholder="Message" />
+          <textarea id="textInput" name="msg" placeholder="Message" rows="1" data-min-rows="1" >
+          </textarea>
         </div>
       </div>
       <script>
