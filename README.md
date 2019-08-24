@@ -18,6 +18,6 @@ enter the IP address in your url
 
 ##simple response##
 
-*hello*
-*my name is yourname*
+*hello,*
+*my name is yourname,*
 *what is time now*
