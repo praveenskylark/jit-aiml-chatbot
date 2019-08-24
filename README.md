@@ -9,7 +9,7 @@ using cmd change the dir to cloned dir
 
 TYPE **set FLASK_APP=chatbot.py**
 
-flask run
+**flask run**
 
 local host will be started 
 enter the IP address in your url
