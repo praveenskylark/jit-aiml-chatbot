@@ -1,7 +1,7 @@
 # jit-aiml-chatbot
  simple chatbot using Artificial Intelligence Mark Up language using pythin
 
-### clone this repo###
+### clone this repo
 
 **install python**
 
