@@ -22,7 +22,7 @@ enter the IP address in your url
 
 ***use the chatbot***
 
-##simple response##
+##simple response
 
 *hello,*
 *my name is yourname,*
