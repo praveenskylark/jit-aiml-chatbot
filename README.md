@@ -5,7 +5,13 @@
 
 **install python**
 
-using cmd change the dir to cloned dir
+using cmd change the directory to cloned directory
+
+go to scripts directory
+
+and type activate
+
+and go back to app directory
 
 TYPE **set FLASK_APP=chatbot.py**
 
