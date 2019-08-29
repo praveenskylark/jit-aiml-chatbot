@@ -9,11 +9,31 @@
         </template>
     </category>
 
+<category>
+	<pattern>hy</pattern>
+	<template><srai>HELLO</srai></template>
+</category>
+
+<category>
+	<pattern>hey</pattern>
+	<template><srai>HELLO</srai></template>
+</category>
+
+<category>
+	<pattern>hi</pattern>
+	<template><srai>HELLO</srai></template>
+</category>
+	
+
 
     <category>
         <pattern>my name is *</pattern>
         <template>hello <star/></template>
     </category>
+	<category>
+	<pattern>I am *</pattern>
+	<template><srai>my name is <star/></srai></template>
+	</category>
 
 
 	<category>
@@ -26,8 +46,20 @@
     <category>
         <pattern>WHAT ARE YOU</pattern>
         <template><![CDATA[
-	        <html>
-                <b>I'm a bot, silly! <b>hello
+	        <button onclick="myfun()">hello</button>
+		<script>
+			myfun(){
+			$."/get", {msg:}
+			}
+            		
+		</script>
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+}
+</script>
 	        </html>]]>
         </template>
     </category>
@@ -45,6 +77,33 @@
         </template>
     </category>
 
+	<category>
+	<pattern> SCHOOL </pattern>
+	<template>school is an important intitution</template>
+	</category>
+
+
+
+<category>
+   <pattern> _ SCHOOL </pattern>
+   <template>
+      <srai> SCHOOL </srai>
+   </template>
+</category>
+
+<category>
+   <pattern> SCHOOL * </pattern>
+   <template>
+      <srai> SCHOOL </srai>
+   </template>
+</category>
+
+<category>
+   <pattern> _ SCHOOL * </pattern>
+   <template>
+      <srai> SCHOOL </srai>
+   </template>
+</category>
 
 
 
