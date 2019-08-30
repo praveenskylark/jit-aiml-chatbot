@@ -1,0 +1,106 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+<category>
+	<pattern>hy</pattern>
+	<template>hey hy!! I am krypto. would you like to see placement details of our college</template>
+</category>
+
+<category>
+	<pattern>hello *</pattern>
+	<template><srai>hy</srai></template>
+</category>
+
+<category>
+	<pattern>hey *</pattern>
+	<template><srai>hy</srai></template>
+</category>
+
+<category>
+	<pattern>hi *</pattern>
+	<template><srai>hy</srai></template>
+</category>
+
+<category>
+	<pattern>heya *</pattern>
+	<template><srai>hy</srai></template>
+</category>
+
+<category>
+	<pattern>hlo *</pattern>
+	<template><srai>hy</srai></template>
+</category>
+
+<category>
+	<pattern>hi there *</pattern>
+	<template><srai>hy</srai></template>
+</category>
+
+<category>
+	<pattern>hey there *</pattern>
+	<template><srai>hy</srai></template>
+</category>
+
+<category>
+	<pattern>hiya *</pattern>
+	<template><srai>hy</srai></template>
+</category>
+
+<category>
+	<pattern>whatsup *</pattern>
+	<template><srai>hy</srai></template>
+</category>
+
+<category>
+	<pattern>just going  say hi</pattern>
+	<template><srai>hy</srai></template>
+</category>
+
+<category>
+	<pattern>heya! *</pattern>
+	<template><srai>hy</srai></template>
+</category>
+
+<category>
+	<pattern>hy *</pattern>
+	<template><srai>hy</srai></template>
+</category>
+
+<category>
+	<pattern>howdy</pattern>
+	<template><srai>hy</srai></template>
+</category>
+
+<category>
+	<pattern>whatsup</pattern>
+	<template><srai>hy</srai></template>
+</category>
+
+<category>
+	<pattern>greetings</pattern>
+	<template><srai>hy</srai></template>
+</category>
+
+<category>
+	<pattern>hello</pattern>
+	<template><srai>hy</srai></template>
+</category>
+
+<category>
+	<pattern>*</pattern>
+	<template>
+		<random>
+			<li>I didn't get that. Can you say it again?</li>
+			<li>I missed what you said. What was that?</li>
+			<li>Sorry, could you say that again?</li>
+			<li>Can you say that again?</li>
+			<li>Sorry, I didn't get that. Can you rephrase?</li>
+			<li>Sorry, what was that?</li>
+			<li>One more time?</li>
+			<li>I didn't get that. Can you repeat?</li>
+			<li>I missed that, say that again?</li>
+		</random>
+	</template>
+</category>
+
+</aiml>
+	

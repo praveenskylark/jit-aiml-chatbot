@@ -1,48 +1,7 @@
 <aiml version="1.0.1" encoding="UTF-8">
 <!-- basic_chat.aiml -->
 
-    <category>
-        <pattern>HELLO</pattern>
-        <template>
-                Well, hello!
-                what is your name
-        </template>
-    </category>
-
-<category>
-	<pattern>hy</pattern>
-	<template><srai>HELLO</srai></template>
-</category>
-
-<category>
-	<pattern>hey</pattern>
-	<template><srai>HELLO</srai></template>
-</category>
-
-<category>
-	<pattern>hi</pattern>
-	<template><srai>HELLO</srai></template>
-</category>
-	
-
-
-    <category>
-        <pattern>my name is *</pattern>
-        <template>hello <star/></template>
-    </category>
-	<category>
-	<pattern>I am *</pattern>
-	<template><srai>my name is <star/></srai></template>
-	</category>
-
-
-	<category>
-		<pattern>my friends call me *</pattern>
-		<template>
-			<srai>my name is <star/></srai>
-		</template>
-	</category>
-    
+        
     <category>
         <pattern>WHAT ARE YOU</pattern>
         <template><![CDATA[
